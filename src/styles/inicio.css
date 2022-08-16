@@ -1,0 +1,151 @@
+.inicio{
+    background-color: var(--color__principal__2);
+}
+
+.contenedorbanner{
+    width: 100%;
+    margin: 0;
+}
+
+.banner{
+    width: 100%;
+    margin: 0;
+}
+
+.presentacion{
+    width: 80%;
+    margin: 0px 10%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion__info {
+	margin-right: 30px;
+	display: flex;
+	flex-direction: column;
+    max-width: 900px;
+    align-items: center;
+}
+
+.presentacion__titulo {
+	font-family: var(--fuente__principal);
+	font-weight: 700;
+	font-size: 1.8rem;
+	margin-bottom: 1.4rem;
+	text-align: center;
+	max-width: 800px;
+}
+
+.presentacion__texto{
+    max-width: 680px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+	font-size: 1rem;
+	line-height: 1.1rem;
+	margin-top: .5rem;
+	margin-bottom: 5px;
+}
+
+.presentacion__image{
+    margin-left: 30px;
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+}
+
+
+.ultimos__proyectos{
+    background-color: var(--color__principal__1);
+    padding: 50px 0;
+}
+
+.ultimos__proyectos__titulo{
+    font-family: var(--fuente__principal);
+	font-weight: 700;
+	font-size: 1.8rem;
+	margin-bottom: 1.4rem;
+    text-align: center;
+    color: var(--color__principal__2);
+}
+
+.inicio_portafolio__texto{
+    font-family: var(--fuente__principal);
+    color: var(--color__principal__3);
+    padding:5px;
+}
+
+.inicio__contacto__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.inicio__contacto__texto{
+    font-family: var(--fuente__principal);
+    color: var(--color__principal__3);
+    padding:10px 20px;
+    border-radius: 20px;
+    transition: all 500ms;
+    font-weight: 500;
+}
+
+.inicio__contacto__texto:hover{
+    background-color: var(--color__principal__3);
+    transform: scale(1.1);
+    color: var(--color__principal__1);
+}
+
+@media screen and (max-width:480px) {
+
+    .contenedorbanner{
+        overflow: hidden;
+    }
+
+    .banner {
+        height: 250px;
+        width: initial;
+        animation-duration: 20s;
+        animation-name: desplazarbanner;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: alternate;
+        position: relative;
+    }
+
+    @keyframes desplazarbanner{
+        from{
+            left: 0px;
+        }
+
+        to{
+            left: -690px;
+        }
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .inicio__contacto__texto {
+        width: 50%;
+        text-align: center;
+    }
+
+    .presentacion {
+        flex-direction: column;
+    }
+
+    .presentacion__info {
+        margin: 0px;
+        order: 2;
+    }
+
+    .presentacion__image {
+        margin: 0 25px 25px 25px;
+        order: 1;
+        border: 10px double black;
+    }
+}

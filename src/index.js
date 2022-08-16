@@ -1,8 +1,22 @@
+//Importacion de Recursos React
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+//Reseteo de estilos y establecimiento de estilos
+import './styles/reset.css'
+import './styles/variables.css'
+
+import './styles/header.css'
+import './styles/footer.css'
+import './styles/inicio.css'
+import './styles/skills.css'
+import './styles/curriculum.css'
+import './styles/contacto.css'
+import './styles/trabajos.css'
+import './styles/error.css'
+
+//Importacion de App
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,8 +24,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

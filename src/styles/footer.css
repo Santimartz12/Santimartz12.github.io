@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--color__principal__2);
+    justify-content: center;
+    padding: 15px;
+}
+
+.footer__name {
+	font-family: var(--fuente__principal);
+    text-align: center;
+	margin: 10px;
+}
+
+.footer__icons__container{
+    display: flex;
+}
+
+.footer__icon{
+    margin: 0 10px 0 0;
+}

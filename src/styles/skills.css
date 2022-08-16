@@ -1,0 +1,123 @@
+.skills{
+    background-color: var(--color__principal__2);
+}
+
+.hard__skills__section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.light__container{
+    background-color: var(--color__principal__2);
+}
+
+.dark__container{
+    background-color: var(--color__elementos__oscuro);
+}
+
+.skills__container {
+	width: 80%;
+	margin: 30px auto 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.skills__titulo{
+    font-family: "Montserrat" , sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.hard__skills__item {
+	width: 90px;
+	height: 120px;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: var(--color__elementos__oscuro);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.099);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 200ms;
+}
+
+
+.hard__skills__item:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    transform: scale(1.1, 1.1);
+    filter: invert(100%);
+}
+
+.skill__nombre{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 500;
+}
+
+.hard__skill__img{
+	margin-bottom: 14px;
+	margin-top: 19px;
+}
+
+.soft__skills__item{
+    width: 240px;
+	height: 120px;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: #c0c0c0;
+	box-shadow: 0 0 15px rgba(255, 255, 255, 0.099);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 200ms;
+}
+
+.soft__skills__item:hover{
+    transform: scale(1.1, 1.1);
+    filter: invert(100%);
+}
+
+@media screen and (max-width:900px) {
+
+	.skills__container {
+		width: 90%;
+		margin: 30px auto 30px auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.skills__container {
+		width: 90%;
+	}
+	
+}
+
+@media screen and (max-width:400px) {
+
+	.soft__skills__item {
+		width: 80%;
+		margin: 10px 0;
+	}
+
+	.skills__container {
+		width: 95%;
+	}
+
+	.hard__skills__item {
+		margin: 10px;
+	}
+
+	.soft__skills__item:hover {
+		transform: scale(1.05, 1.05);
+		filter: invert(100%);
+	}
+	
+}

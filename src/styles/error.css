@@ -1,0 +1,42 @@
+.error__container{
+    width: 100%;
+    background-color: var(--color__principal__1);
+    height: calc(100vh - 166px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error__titulo {
+	color: var(--color__principal__2);
+	font-family: var(--fuente__principal);
+	font-size: 10rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.error__text{
+    color: var(--color__principal__3);
+    animation-name: colorError;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.error__info{
+    color: var(--color__principal__2);
+    font-family: var(--fuente__principal);
+    font-weight: 500;
+}
+
+
+
+@keyframes colorError {
+    from{    
+        color: var(--color__principal__2);
+    }
+    to{
+        color: var(--color__principal__3);
+    }
+}
