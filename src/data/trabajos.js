@@ -1,6 +1,12 @@
+import SM0001 from '../resources/trabajos/SM0001.webp'
+import SM0002 from '../resources/trabajos/SM0002.webp'
+import SM0003 from '../resources/trabajos/SM0003.webp'
+import SM0004 from '../resources/trabajos/SM0004.webp'
+
 export const trabajos = [
     {
         id: "SM0001",
+        img: SM0001,
         nombre: "E-commerce AluraGeek",
         lenguajes: ["html5","javaScript","css3"],
         urlDemo: "https://santimartz12.github.io/E_Commerce/",
@@ -8,6 +14,7 @@ export const trabajos = [
     },
     {
         id: "SM0002",
+        img: SM0002,
         nombre: "Juego Ahorcado",
         lenguajes: ["html5","javaScript","css3"],
         urlDemo: "https://santimartz12.github.io/Ahorcado/",
@@ -15,6 +22,7 @@ export const trabajos = [
     },
     {
         id: "SM0003",
+        img: SM0003,
         nombre: "Encriptador de texto",
         lenguajes: ["html5","javaScript","css3"],
         urlDemo: "https://santimartz12.github.io/Encriptador/",
@@ -22,6 +30,7 @@ export const trabajos = [
     },
     {
         id: "SM0004",
+        img: SM0004,
         nombre: "Página Oficial",
         lenguajes: ["html5","css3"],
         urlDemo: "https://santimartz12.github.io/Official_Website/",
