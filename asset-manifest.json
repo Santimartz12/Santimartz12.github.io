@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portafolio-react/static/css/main.d698431c.css",
+    "main.js": "/portafolio-react/static/js/main.65dbf2c1.js",
+    "static/media/Banner.webp": "/portafolio-react/static/media/Banner.1c6d6d91712e95aa6cda.webp",
+    "static/media/Yop.webp": "/portafolio-react/static/media/Yop.262165cc29f48716e08d.webp",
+    "static/media/ImagenPerfil.webp": "/portafolio-react/static/media/ImagenPerfil.b1f4f959be7860cbd17a.webp",
+    "static/media/LogoNormalFalan.webp": "/portafolio-react/static/media/LogoNormalFalan.51255c2037dc3be68c40.webp",
+    "static/media/Icon_Santimartz.svg": "/portafolio-react/static/media/Icon_Santimartz.b64fe7c884e760c35f6cc53a36b4b5c6.svg",
+    "static/media/LogoUNAD.svg": "/portafolio-react/static/media/LogoUNAD.c9766e6283ed7c20ebd57b44613efd9a.svg",
+    "static/media/LogoUdemy.svg": "/portafolio-react/static/media/LogoUdemy.1240144638a6d68259ecc37f2c73d739.svg",
+    "static/media/logoAlura.svg": "/portafolio-react/static/media/logoAlura.8c92853da800c2cca13cd769ba613796.svg",
+    "index.html": "/portafolio-react/index.html",
+    "main.d698431c.css.map": "/portafolio-react/static/css/main.d698431c.css.map",
+    "main.65dbf2c1.js.map": "/portafolio-react/static/js/main.65dbf2c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d698431c.css",
+    "static/js/main.65dbf2c1.js"
+  ]
+}
