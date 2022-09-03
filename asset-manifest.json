@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portafolio-react/static/css/main.d698431c.css",
+    "main.css": "/portafolio-react/static/css/main.357f5f22.css",
     "main.js": "/portafolio-react/static/js/main.654124c1.js",
     "static/media/Banner.webp": "/portafolio-react/static/media/Banner.1c6d6d91712e95aa6cda.webp",
     "static/media/Yop.webp": "/portafolio-react/static/media/Yop.262165cc29f48716e08d.webp",
@@ -15,11 +15,11 @@
     "static/media/LogoUdemy.svg": "/portafolio-react/static/media/LogoUdemy.1240144638a6d68259ecc37f2c73d739.svg",
     "static/media/logoAlura.svg": "/portafolio-react/static/media/logoAlura.8c92853da800c2cca13cd769ba613796.svg",
     "index.html": "/portafolio-react/index.html",
-    "main.d698431c.css.map": "/portafolio-react/static/css/main.d698431c.css.map",
+    "main.357f5f22.css.map": "/portafolio-react/static/css/main.357f5f22.css.map",
     "main.654124c1.js.map": "/portafolio-react/static/js/main.654124c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d698431c.css",
+    "static/css/main.357f5f22.css",
     "static/js/main.654124c1.js"
   ]
 }
