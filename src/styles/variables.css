@@ -60,3 +60,14 @@
     background-color: var(--color__principal__1);
     color: var(--color__principal__2);
 }
+
+
+@media screen and (max-width: 350px) {
+
+    .buttons__style {
+        font-size: 0.7rem;
+    }
+
+}
+
+

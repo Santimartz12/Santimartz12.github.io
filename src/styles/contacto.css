@@ -2,14 +2,14 @@
 	background-color: rgb(0, 0, 0);
 }
 
-.redes__contacto{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+.redes__contacto {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0px;
 }
 
 .titulo__redes {

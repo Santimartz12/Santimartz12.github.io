@@ -263,9 +263,18 @@
 }
 
 
+@media screen and (max-width: 370px) {
+
+    .info__exp_texto {
+        font-size: .85rem;
+    }
+    
+    .formacion__item {
+        width: 100%;
+    }
 
 
-
+}
 
 
 
