@@ -5,7 +5,9 @@ import unad from '../resources/images/estudios/LogoUNAD.svg'
 import alura from '../resources/images/estudios/logoAlura.svg'
 import normal from '../resources/images/estudios/LogoNormalFalan.webp'
 import udemy from '../resources/images/estudios/LogoUdemy.svg'
+import one from '../resources/images/estudios/logoONE.svg'
 import myphoto from '../resources/images/Yop.webp'
+
 
 export const Curriculum = () => {
 
@@ -48,7 +50,7 @@ export const Curriculum = () => {
         <h1 className='formacion__titulo light__text'>Formacion</h1>
         <div className='formacion__lista'>
           <Formacion image={unad} titulo="Ingeniería Multimedia" info="En curso - UNAD" alt="Logo UNAD" />
-          <Formacion image={alura} titulo="Desarrollador Web" info="En curso - Oracle Next Education" alt="Logo Alura" />
+          <Formacion image={one} titulo="Desarrollador Web" info="En curso - Oracle Next Education" alt="Logo Alura" />
           <Formacion image={normal} titulo="Normalista Superior" info="2019 - IENSFT" alt="Logo IENSFT" />
           <Formacion image={udemy} titulo="Programación en C#" info="En curso - Udemy" alt="Logo Udemy" />
           <Formacion image={udemy} titulo="Master en React" info="En curso - Udemy" alt="Logo Udemy" />

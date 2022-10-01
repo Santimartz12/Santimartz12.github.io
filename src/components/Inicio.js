@@ -8,6 +8,7 @@ import { trabajos } from '../data/trabajos'
 import { Trabajo } from './layout/subComponents/Trabajo'
 
 export const Inicio = () => {
+
   return (
     <div className='inicio'>
       <div className='contenedorbanner'>
@@ -28,7 +29,7 @@ export const Inicio = () => {
         <Link className='inicio__contacto__link' to="/portafolio"><p className='inicio__contacto__texto'>Conoce más proyectos</p></Link>
         <div className='trabajos__container'>
           <Trabajo trabajo={trabajos[0]} />
-          <Trabajo trabajo={trabajos[1]} />
+          <Trabajo trabajo={trabajos[4]} />
         </div>
 
         <div className='inicio__contacto__container'>

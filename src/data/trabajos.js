@@ -2,6 +2,7 @@ import SM0001 from '../resources/trabajos/SM0001.webp'
 import SM0002 from '../resources/trabajos/SM0002.webp'
 import SM0003 from '../resources/trabajos/SM0003.webp'
 import SM0004 from '../resources/trabajos/SM0004.webp'
+import SM0005 from '../resources/trabajos/SM0005.webp'
 
 export const trabajos = [
     {
@@ -35,6 +36,14 @@ export const trabajos = [
         lenguajes: ["html5","css3"],
         urlDemo: "https://santimartz12.github.io/Official_Website/",
         urlRepo: "https://github.com/Santimartz12/Official_Website",
+    },
+    {
+        id: "SM0005",
+        img: SM0005,
+        nombre: "GifsApp",
+        lenguajes: ["html5","angular","css3"],
+        urlDemo: "https://santimartz12.github.io/gifsApp/",
+        urlRepo: "https://github.com/Santimartz12/gifsApp",
     },
 
 ]

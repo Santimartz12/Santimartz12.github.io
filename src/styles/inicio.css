@@ -146,7 +146,7 @@
     .presentacion__image {
         margin: 0 25px 25px 25px;
         order: 1;
-        border: 10px double black;
+        border: 10px double var(--color__principal__1);
     }
 }
 
