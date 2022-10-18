@@ -23,17 +23,14 @@ export const Curriculum = () => {
           <h1 className='formacion__titulo light__text'>Perfil Profesional</h1>
           <img className='perfil__photo__responsive' alt="Foto Personal" src={myphoto}/>
           <p className='formacion__text light__text'>Soy una persona paciente, amable, honrada y sincera, con voluntad de seguir    capacitándome para mejorar cada día como persona y profesional, tengo buena disposición para atender y recibir
-            sugerencias y siempre busco hacer todo de la mejor manera posible para lograr el mejor resultado
-            en las actividades en las que me he desempeñado. </p> <br />
+            sugerencias y siempre busco hacer todo de la mejor manera posible para lograr un resultado excelente
+            en las actividades donde me desempeño. </p> <br />
           <p className='formacion__text light__text'>Soy Normalista superior con experiencia en
-            trabajo comunitario y en equipo, también tengo conocimiento aceptable en el idioma inglés, en el
-            manejo de programas como Photoshop, Lightroom y el paquete Office con gran destreza, practico
-            la toma de fotografías, y el retoque digital. Me considero una persona muy responsable que no
-            desaprovecha las oportunidades en las que pueda obtener experiencia y crecimiento tanto laboral
+            trabajo comunitario y en equipo, tengo conocimiento aceptable en el idioma inglés, en el
+            manejo de programas como Photoshop, Illustrator y Premiere; de igual forma trabajo el paquete Office con gran destreza, practico escultura y animación 3D en mi tiempo libre, desarrollando mis propias historias mediante producciones personales. Me considero una persona muy responsable que no desaprovecha las oportunidades en las que pueda obtener experiencia y crecimiento tanto laboral
             como personal. </p> <br />
           <p className='formacion__text light__text'>He aprendido desarrollo FrontEnd gracias al programa Oracle Next Education y
-            Alura Latam donde manejo de excelente forma HTML, CSS y JavaScript, actualmente estoy
-            aprendiendo a utilizar la librería React JS y el Framework Angular para la construcción de proyectos más amplios.</p>
+            Alura Latam donde manejo de excelente forma HTML, CSS y JavaScript, actualmente estoy aprendiendo a utilizar la librería React JS y el Framework Angular para la construcción de proyectos más amplios.</p>
         </div>
       </div>
 
@@ -50,7 +47,7 @@ export const Curriculum = () => {
         <h1 className='formacion__titulo light__text'>Formacion</h1>
         <div className='formacion__lista'>
           <Formacion image={unad} titulo="Ingeniería Multimedia" info="En curso - UNAD" alt="Logo UNAD" />
-          <Formacion image={one} titulo="Desarrollador Web" info="En curso - Oracle Next Education" alt="Logo Alura" />
+          <Formacion image={one} titulo="Desarrollo FrontEnd" info="2022 - Oracle Next Education" alt="Logo Alura" />
           <Formacion image={normal} titulo="Normalista Superior" info="2019 - IENSFT" alt="Logo IENSFT" />
           <Formacion image={udemy} titulo="Programación en C#" info="En curso - Udemy" alt="Logo Udemy" />
           <Formacion image={udemy} titulo="Master en React" info="En curso - Udemy" alt="Logo Udemy" />

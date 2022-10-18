@@ -14,6 +14,8 @@ import './styles/curriculum.css'
 import './styles/contacto.css'
 import './styles/trabajos.css'
 import './styles/error.css'
+import './styles/producciones.css'
+import './styles/proyecto.css'
 
 //Importacion de App
 import App from './App';

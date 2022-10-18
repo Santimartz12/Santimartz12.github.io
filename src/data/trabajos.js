@@ -33,9 +33,9 @@ export const trabajos = [
         id: "SM0004",
         img: SM0004,
         nombre: "Página Oficial",
-        lenguajes: ["html5","css3"],
-        urlDemo: "https://santimartz12.github.io/Official_Website/",
-        urlRepo: "https://github.com/Santimartz12/Official_Website",
+        lenguajes: ["html5","react","css3"],
+        urlDemo: "https://santimartz12.github.io/portafolio-react/",
+        urlRepo: "https://github.com/Santimartz12/portafolio-react",
     },
     {
         id: "SM0005",

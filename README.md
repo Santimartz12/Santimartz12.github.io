@@ -4,4 +4,4 @@ Aquí estaré mostrando todos los proyectos que vaya desarrollando durante mi ca
 
 Este portafolio fue realizado en React JS gracias al curso de Víctor Robles WEB.
 
-Link del portafolio: https://santimartz.netlify.app/
+Link del portafolio: https://santimartz12.github.io/portafolio-react/

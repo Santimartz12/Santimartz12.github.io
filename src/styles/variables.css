@@ -1,15 +1,24 @@
 :root{
-    --color__principal__1: black;
+    --color__principal__1: rgb(0, 0, 0);
     --color__principal__2: #F5F5F5;
     --color__principal__3: #ff681d;
     --color__elementos__oscuro: rgb(36, 36, 36);
-
+    --color__elementos__claro: #e3e3e3;
     --fuente__principal: "Montserrat", sans-serif;
+}
+
+.links{
+    text-decoration: none;
 }
 
 
 .light__text{
     color: var(--color__principal__2);
+}
+
+.fondo__claro__logo{
+    background: url(/src/resources/images/Fondo.svg) repeat;
+    background-size: 100px;
 }
 
 .dark__text{
@@ -20,12 +29,41 @@
     color: var(--color__principal__3);
 }
 
+.orange__text--animation{
+    color: var(--color__principal__3);
+    animation-name: OrangeText;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes OrangeText {
+    from{
+        color: var(--color__principal__2);
+    }
+    to{
+        color: var(--color__principal__3);
+    }
+}
+
 .fondo__oscuro{
     background-color: var(--color__principal__1);
 }
 
 .fondo__claro{
     background-color: var(--color__principal__2);
+}
+
+.fondo__orange{
+    background-color: var(--color__principal__3);
+}
+
+.fondo__opaco{
+    background-color: var(--color__elementos__oscuro);
+}
+
+.fondo__claro_elementos{
+    background: linear-gradient(var(--color__elementos__claro)65%, #ffffff00 );
 }
 
 .buttons__style{

@@ -1,14 +1,55 @@
 .trabajos__container {
 	display: flex;
 	flex-wrap: wrap;
-	width: 80%;
-	margin: 40px auto 0 auto;
+	width: 100%;
+    padding: 10px 0;
+	margin: 0px auto 0 auto;
 	align-items: center;
 	justify-content: center;
 }
 
+.multimedia__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.frontend__container__proyectos{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+}
+
+.inicio__trabajos__container{
+    display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0px auto 0 auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.titulo__proyectos {
+	font-family: var(--fuente__principal);
+	text-align: center;
+	margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.proyectos__multimedia{
+    width: 35%;
+}
+
 .portafolio{
     background-color: var(--color__principal__2);
+    display: flex;
 }
 
 .portafolio__titulo{
@@ -41,7 +82,7 @@
 }
 
 .trabajo__image{
-    width: 400px;
+    width: 300px;
     margin: 10px 0;
 }
 
@@ -61,7 +102,19 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+    .portafolio{
+        display: block;
+    }
     
+    .frontend__container__proyectos {
+        width: 100%;
+    }
+
+    .proyectos__multimedia {
+        width: 100%;
+    }
+
     .portafolio__titulo {
         font-size: 35px;
     }
@@ -72,9 +125,30 @@
 
     .trabajos__container {
         width: 95%;
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 
+    .multimedia__container {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width: 680px){
+
+    .titulo__proyectos {
+        font-size: 2rem;
+    }
+
+    .multimedia__container {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 370px) {
@@ -93,3 +167,4 @@
     }
 
 }
+
