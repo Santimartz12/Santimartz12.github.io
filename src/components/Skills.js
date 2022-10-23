@@ -3,6 +3,9 @@ import { HardSkills, SoftSkills } from './layout/subComponents/SkillsComponent'
 
 export const Skills = () => {
 
+  //    En hardSkills faltan:
+  //    Photoshop - Illustrator - Blender - C# - Java - TypeScript
+
   return (
     <div className='page'>
 
@@ -12,11 +15,12 @@ export const Skills = () => {
             <h2 className='skills__titulo'>Hard skills</h2>
 
             <div className='skills__container'>
-              <HardSkills titulo="HTML" nameLogo="logo-html5" />
-              <HardSkills titulo="CSS" nameLogo="logo-css3" />
-              <HardSkills titulo="JavaScript" nameLogo="logo-javascript" />
-              <HardSkills titulo="React JS" nameLogo="logo-react" />
-              <HardSkills titulo="Git" nameLogo="git-branch-outline" />
+              <HardSkills titulo="HTML" nameLogo="logo-html5" porcentaje="90"/>
+              <HardSkills titulo="CSS" nameLogo="logo-css3" porcentaje="70"/>
+              <HardSkills titulo="JavaScript" nameLogo="logo-javascript" porcentaje="70"/>
+              <HardSkills titulo="Git" nameLogo="git-branch-outline" porcentaje="30"/>
+              <HardSkills titulo="React JS" nameLogo="logo-react" porcentaje="50"/>
+              <HardSkills titulo="Angular" nameLogo="logo-angular" porcentaje="40"/>
             </div>
           </div>
 

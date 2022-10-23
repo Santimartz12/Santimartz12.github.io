@@ -258,6 +258,8 @@
 
     .formacion__text {
         text-align: center;
+        width: 100%;
+        font-weight: 400;
     }
 
 }

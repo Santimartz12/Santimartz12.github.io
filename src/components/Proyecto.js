@@ -13,7 +13,7 @@ export const Proyecto = () => {
   const buscarPagina = () => {
 
     multimedia.forEach(proyect => {
-      if (proyect.titulo === proyecto) {
+      if (proyect.id === proyecto) {
         setPagina(proyect);
       }
     });
@@ -40,13 +40,17 @@ export const Proyecto = () => {
         <p className='acercade__proyecto'>{pagina.acercaDe}</p>
       </div>
 
-      {(pagina.banner2) && <img className='img__proyecto' alt={pagina.titulo} src={pagina.banner2}/>}
 
-      <div className='info__proyecto'>
-        <h1 className='tituloinfo'>Teaser - {pagina.titulo}</h1>
-        <span className='contenedorYT'>{pagina.linkYT}</span>
+      {/* {(pagina.galeria) && <img className='img__proyecto' alt={pagina.titulo} src={pagina.galeria[0].img} />} */}
+      {(pagina.banner2) && <img className='img__proyecto' alt={pagina.titulo} src={pagina.banner2} />}
 
-      </div>
+
+      {/* Si hay video en YouTube se muestra esto */}
+      {(pagina.linkYT &&
+        (<div className='info__proyecto'>
+          <h1 className='tituloinfo'>Teaser - {pagina.titulo}</h1>
+          <span className='contenedorYT'>{pagina.linkYT}</span>
+        </div>))}
 
     </div>
   )

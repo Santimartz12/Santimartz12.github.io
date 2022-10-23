@@ -84,6 +84,49 @@
     filter: invert(100%);
 }
 
+.principal_text{
+    font-family: var(--fuente__principal);
+	font-size: 13px;
+	margin: 2px 0;
+}
+
+.hard__skills__percent{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.percent__background{
+
+	display: flex;
+	background-color: var(--color__elementos__invertido__claro);
+	width: 65%;
+	border-radius: 20px;
+	overflow: hidden;
+	height: 4px;
+}
+
+.percent__fill{
+	height: 4px;
+	padding: 0px 0px 0px 0px;
+	background-color: var(--color__elementos__claro);
+	border-radius: 0px 5px 5px 0;
+}
+
+.percent__text{
+	width: 25%;
+	margin-left: 10%;
+}
+
+@media screen and (max-width: 1300px){
+
+	.skills__container {
+		width: 60%;
+	}
+	
+}
+
 @media screen and (max-width:900px) {
 
 	.skills__container {

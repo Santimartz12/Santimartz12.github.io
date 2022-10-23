@@ -4,13 +4,13 @@
     --color__principal__3: #ff681d;
     --color__elementos__oscuro: rgb(36, 36, 36);
     --color__elementos__claro: #e3e3e3;
+    --color__elementos__invertido__claro: #3f3f3f;
     --fuente__principal: "Montserrat", sans-serif;
 }
 
 .links{
     text-decoration: none;
 }
-
 
 .light__text{
     color: var(--color__principal__2);
