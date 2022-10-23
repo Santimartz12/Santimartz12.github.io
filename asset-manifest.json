@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portafolio-react/static/css/main.8918a24e.css",
-    "main.js": "/portafolio-react/static/js/main.bfaae948.js",
-    "static/media/SP0002_2.webp": "/portafolio-react/static/media/SP0002_2.89bba5e927392adcf2ed.webp",
+    "main.css": "/portafolio-react/static/css/main.8f3fc025.css",
+    "main.js": "/portafolio-react/static/js/main.95386300.js",
+    "static/media/BNR0002_1.webp": "/portafolio-react/static/media/BNR0002_1.5ade9cb00bd28e070953.webp",
+    "static/media/BNR0002_2.webp": "/portafolio-react/static/media/BNR0002_2.89bba5e927392adcf2ed.webp",
     "static/media/Banner.webp": "/portafolio-react/static/media/Banner.1c6d6d91712e95aa6cda.webp",
     "static/media/SP0001.webp": "/portafolio-react/static/media/SP0001.ef4f09f5b46739dfd3bb.webp",
     "static/media/Yop.webp": "/portafolio-react/static/media/Yop.262165cc29f48716e08d.webp",
@@ -12,6 +13,7 @@
     "static/media/ImagenPerfil.webp": "/portafolio-react/static/media/ImagenPerfil.b1f4f959be7860cbd17a.webp",
     "static/media/LogoNormalFalan.webp": "/portafolio-react/static/media/LogoNormalFalan.51255c2037dc3be68c40.webp",
     "static/media/SM0001.webp": "/portafolio-react/static/media/SM0001.99e98434fb43ac80ac3b.webp",
+    "static/media/SM0006.webp": "/portafolio-react/static/media/SM0006.8abf233a3a7ecf0980e5.webp",
     "static/media/Fondo.svg": "/portafolio-react/static/media/Fondo.b46d35ed3358e1ac364f.svg",
     "static/media/SM0003.webp": "/portafolio-react/static/media/SM0003.6f80c6d15428f72537f5.webp",
     "static/media/logoONE.svg": "/portafolio-react/static/media/logoONE.00e844b774f82f2c879ebab5de0384b0.svg",
@@ -21,11 +23,11 @@
     "static/media/LogoUdemy.svg": "/portafolio-react/static/media/LogoUdemy.1240144638a6d68259ecc37f2c73d739.svg",
     "static/media/logoAlura.svg": "/portafolio-react/static/media/logoAlura.8c92853da800c2cca13cd769ba613796.svg",
     "index.html": "/portafolio-react/index.html",
-    "main.8918a24e.css.map": "/portafolio-react/static/css/main.8918a24e.css.map",
-    "main.bfaae948.js.map": "/portafolio-react/static/js/main.bfaae948.js.map"
+    "main.8f3fc025.css.map": "/portafolio-react/static/css/main.8f3fc025.css.map",
+    "main.95386300.js.map": "/portafolio-react/static/js/main.95386300.js.map"
   },
   "entrypoints": [
-    "static/css/main.8918a24e.css",
-    "static/js/main.bfaae948.js"
+    "static/css/main.8f3fc025.css",
+    "static/js/main.95386300.js"
   ]
 }
