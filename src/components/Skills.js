@@ -1,6 +1,15 @@
 import React from 'react'
 import { HardSkills, SoftSkills } from './layout/subComponents/SkillsComponent'
 
+
+//Logos para importar mientras se actualiza ionicons
+import logoCsharp from "../resources/images/csharp.svg";
+import logoJava from "../resources/images/Java.svg";
+import logoIllustrator from "../resources/images/Illustrator.svg";
+import logoPhotoshop from "../resources/images/Photoshop.svg";
+import logoPremiere from "../resources/images/Premiere.svg";
+import logoBlender from "../resources/images/Blender.svg";
+
 export const Skills = () => {
 
   //    En hardSkills faltan:
@@ -18,9 +27,15 @@ export const Skills = () => {
               <HardSkills titulo="HTML" nameLogo="logo-html5" porcentaje="90"/>
               <HardSkills titulo="CSS" nameLogo="logo-css3" porcentaje="70"/>
               <HardSkills titulo="JavaScript" nameLogo="logo-javascript" porcentaje="70"/>
-              <HardSkills titulo="Git" nameLogo="git-branch-outline" porcentaje="30"/>
+              <HardSkills titulo="Git" nameLogo="git-branch-outline" porcentaje="60"/>
               <HardSkills titulo="React JS" nameLogo="logo-react" porcentaje="50"/>
-              <HardSkills titulo="Angular" nameLogo="logo-angular" porcentaje="40"/>
+              <HardSkills titulo="Angular" nameLogo="logo-angular" porcentaje="50"/>
+              <HardSkills titulo="C#" nameLogo={logoCsharp} porcentaje="50"/>
+              <HardSkills titulo="Java" nameLogo={logoJava} porcentaje="70"/>
+              <HardSkills titulo="Photoshop" nameLogo={logoPhotoshop} porcentaje="100"/>
+              <HardSkills titulo="Illustrator" nameLogo={logoIllustrator} porcentaje="80"/>
+              <HardSkills titulo="Premiere" nameLogo={logoPremiere} porcentaje="80"/>
+              <HardSkills titulo="Blender" nameLogo={logoBlender} porcentaje="70"/>
             </div>
           </div>
 

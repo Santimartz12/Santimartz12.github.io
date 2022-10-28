@@ -68,6 +68,28 @@
     height: 100%;
 }
 
+.galeria{
+    width: 100%;
+    padding: 30px 0;
+    background-color: var(--color__elementos__oscuro);
+}
+
+.galeria__container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__galeria{
+    width: 20%;
+    min-width: 200px;
+    max-width: 250px;
+    margin: 10px
+}
+
 @media screen and (max-width: 850px) {
     
     .tituloinfo {
@@ -98,5 +120,15 @@
     .contenedorYT {
         width: 90%;
         height: 300px;
+    }
+
+
+}
+
+@media screen and (max-width: 489px) {
+    .img__galeria{
+        width: 100%;
+        min-width: 200px;
+        margin: 10px
     }
 }

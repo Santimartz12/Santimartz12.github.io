@@ -41,7 +41,23 @@ export const Proyecto = () => {
       </div>
 
 
-      {/* {(pagina.galeria) && <img className='img__proyecto' alt={pagina.titulo} src={pagina.galeria[0].img} />} */}
+      {(pagina.galeria) &&
+        <div className='galeria'>
+          <h1 className='tituloinfo'>Galeria</h1>
+          
+          <div className='galeria__container'>
+            {
+              (pagina.galeria.map(img => {
+                return <img className='img__galeria' alt={pagina.titulo} src={img} />
+              }))
+            }            
+          </div>
+
+
+        </div>
+      }
+
+
       {(pagina.banner2) && <img className='img__proyecto' alt={pagina.titulo} src={pagina.banner2} />}
 
 

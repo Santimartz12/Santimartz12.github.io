@@ -7,7 +7,7 @@ export const Logos = (props) => {
   return (
     <div className={props.estilo && props.estilo}>
       <ion-icon style={{ fontSize: props.size, color: props.colorLogo }}
-        name={props.logo}></ion-icon>
+        name={props.logo} src={props.logo}></ion-icon>
     </div>
   )
 }
