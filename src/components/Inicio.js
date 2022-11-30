@@ -30,7 +30,7 @@ export const Inicio = () => {
         <div className='inicio__trabajos__container'>
           <Trabajo trabajo={trabajos[4]} />
           <Trabajo trabajo={trabajos[0]} />
-          <Trabajo trabajo={trabajos[1]} />
+          <Trabajo trabajo={trabajos[6]} />
         </div>
 
         <div className='inicio__contacto__container'>

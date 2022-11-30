@@ -45,6 +45,17 @@
     padding: 15px;
 }
 
+.art_container{
+    width: 100%;
+    background-color: var(--color__elementos__oscuro);
+}
+
+.img__art{
+    width: 88%;
+    margin: 0 6% 30px 6%;
+
+}
+
 @media screen and (max-width: 1200px) {
 
     .producciones {

@@ -4,6 +4,7 @@ import SM0003 from '../resources/trabajos/SM0003.webp'
 import SM0004 from '../resources/trabajos/SM0004.webp'
 import SM0005 from '../resources/trabajos/SM0005.webp'
 import SM0006 from '../resources/trabajos/SM0006.webp'
+import SM0007 from '../resources/trabajos/SM0007.webp'
 
 export const trabajos = [
     {
@@ -54,4 +55,13 @@ export const trabajos = [
         urlDemo: "https://santimartz12.github.io/angular-pipes/",
         urlRepo: "https://github.com/Santimartz12/angular-pipes",
     },
+    {
+        id: "SM0007",
+        img: SM0007,
+        nombre: "MapasApp",
+        lenguajes: ["html5","angular","css3"],
+        urlDemo: "https://mapangular.netlify.app/",
+        urlRepo: "https://github.com/Santimartz12/AngularMap",
+    },
+    
 ]

@@ -59,7 +59,10 @@ export const Proyecto = () => {
 
 
       {(pagina.banner2) && <img className='img__proyecto' alt={pagina.titulo} src={pagina.banner2} />}
-
+      {(pagina.art) && 
+        (<div className='art_container'>
+        <img className='img__art' alt={pagina.titulo} src={pagina.art}/>
+        </div>) }
 
       {/* Si hay video en YouTube se muestra esto */}
       {(pagina.linkYT &&

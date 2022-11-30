@@ -25,13 +25,13 @@ export const Skills = () => {
 
             <div className='skills__container'>
               <HardSkills titulo="HTML" nameLogo="logo-html5" porcentaje="90"/>
-              <HardSkills titulo="CSS" nameLogo="logo-css3" porcentaje="70"/>
+              <HardSkills titulo="CSS" nameLogo="logo-css3" porcentaje="80"/>
               <HardSkills titulo="JavaScript" nameLogo="logo-javascript" porcentaje="70"/>
               <HardSkills titulo="Git" nameLogo="git-branch-outline" porcentaje="60"/>
               <HardSkills titulo="React JS" nameLogo="logo-react" porcentaje="50"/>
-              <HardSkills titulo="Angular" nameLogo="logo-angular" porcentaje="50"/>
+              <HardSkills titulo="Angular" nameLogo="logo-angular" porcentaje="80"/>
               <HardSkills titulo="C#" nameLogo={logoCsharp} porcentaje="50"/>
-              <HardSkills titulo="Java" nameLogo={logoJava} porcentaje="70"/>
+              <HardSkills titulo="Java" nameLogo={logoJava} porcentaje="60"/>
               <HardSkills titulo="Photoshop" nameLogo={logoPhotoshop} porcentaje="100"/>
               <HardSkills titulo="Illustrator" nameLogo={logoIllustrator} porcentaje="80"/>
               <HardSkills titulo="Premiere" nameLogo={logoPremiere} porcentaje="80"/>
