@@ -5,6 +5,7 @@ import unad from '../resources/images/estudios/LogoUNAD.svg'
 import normal from '../resources/images/estudios/LogoNormalFalan.webp'
 import udemy from '../resources/images/estudios/LogoUdemy.svg'
 import one from '../resources/images/estudios/logoONE.svg'
+import platzi from '../resources/images/estudios/LogoPlatzi.svg'
 import myphoto from '../resources/images/Yop.webp'
 
 
@@ -50,7 +51,7 @@ export const Curriculum = () => {
           <Formacion image={normal} titulo="Normalista Superior" info="2019 - IENSFT" alt="Logo IENSFT" />
           <Formacion image={udemy} titulo="Angular: De cero a experto" info="2022 - Udemy" alt="Logo Udemy" />
           <Formacion image={udemy} titulo="Programación en C#" info="En curso - Udemy" alt="Logo Udemy" />
-          <Formacion image={udemy} titulo="Master en React" info="En curso - Udemy" alt="Logo Udemy" />
+          <Formacion image={platzi} titulo="FullStack Developer" info="En curso - Platzi" alt="Logo Udemy" />
         </div>
       </div>
 

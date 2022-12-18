@@ -27,7 +27,7 @@ export const Skills = () => {
               <HardSkills titulo="HTML" nameLogo="logo-html5" porcentaje="90"/>
               <HardSkills titulo="CSS" nameLogo="logo-css3" porcentaje="80"/>
               <HardSkills titulo="JavaScript" nameLogo="logo-javascript" porcentaje="70"/>
-              <HardSkills titulo="Git" nameLogo="git-branch-outline" porcentaje="60"/>
+              <HardSkills titulo="Git" nameLogo="git-branch-outline" porcentaje="100"/>
               <HardSkills titulo="React JS" nameLogo="logo-react" porcentaje="50"/>
               <HardSkills titulo="Angular" nameLogo="logo-angular" porcentaje="80"/>
               <HardSkills titulo="C#" nameLogo={logoCsharp} porcentaje="50"/>
