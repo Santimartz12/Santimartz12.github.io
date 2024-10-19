@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b85878d.css",
-    "main.js": "/static/js/main.539d109a.js",
+    "main.css": "/static/css/main.0f6323f8.css",
+    "main.js": "/static/js/main.1de2b070.js",
     "static/media/BNR0003.webp": "/static/media/BNR0003.229485835b1c2d553e1f.webp",
     "static/media/BNR0002_1.webp": "/static/media/BNR0002_1.5ade9cb00bd28e070953.webp",
     "static/media/BNR0002_2.webp": "/static/media/BNR0002_2.89bba5e927392adcf2ed.webp",
@@ -11,7 +11,6 @@
     "static/media/Banner.webp": "/static/media/Banner.1c6d6d91712e95aa6cda.webp",
     "static/media/006.webp": "/static/media/006.2a8d0e7a018dbab52b96.webp",
     "static/media/002.webp": "/static/media/002.99de7d9d13e41b871d42.webp",
-    "static/media/Yop.webp": "/static/media/Yop.262165cc29f48716e08d.webp",
     "static/media/007.webp": "/static/media/007.eee9858c061d8cc59123.webp",
     "static/media/008.webp": "/static/media/008.bfd80ced8497ef967517.webp",
     "static/media/005.webp": "/static/media/005.1de7fad14f939359e95f.webp",
@@ -34,18 +33,16 @@
     "static/media/LogoUNAD.svg": "/static/media/LogoUNAD.c9766e6283ed7c20ebd57b44613efd9a.svg",
     "static/media/LogoPlatzi.svg": "/static/media/LogoPlatzi.e0de850767a97c48e2411ea03ee712d8.svg",
     "static/media/LogoUdemy.svg": "/static/media/LogoUdemy.1240144638a6d68259ecc37f2c73d739.svg",
-    "static/media/Java.svg": "/static/media/Java.8fa7ca17e809ba55f84d51ae019a33a5.svg",
     "static/media/Photoshop.svg": "/static/media/Photoshop.c565145e625fdd18b25a196fe1f68b26.svg",
     "static/media/Premiere.svg": "/static/media/Premiere.fe92938f910d001871bb88b9a88e600f.svg",
     "static/media/Blender.svg": "/static/media/Blender.9cf2e0fd563baed096fd0be23a7573e8.svg",
     "static/media/Illustrator.svg": "/static/media/Illustrator.022134dd9201e9b8b3d798a6aa86f097.svg",
-    "static/media/csharp.svg": "/static/media/csharp.72828b0ee92b2184f3f1121a6807d3c7.svg",
     "index.html": "/index.html",
-    "main.9b85878d.css.map": "/static/css/main.9b85878d.css.map",
-    "main.539d109a.js.map": "/static/js/main.539d109a.js.map"
+    "main.0f6323f8.css.map": "/static/css/main.0f6323f8.css.map",
+    "main.1de2b070.js.map": "/static/js/main.1de2b070.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b85878d.css",
-    "static/js/main.539d109a.js"
+    "static/css/main.0f6323f8.css",
+    "static/js/main.1de2b070.js"
   ]
 }
