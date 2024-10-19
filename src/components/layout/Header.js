@@ -21,9 +21,9 @@ export const Header = () => {
           <li className='header__items'> 
             <NavLink className={`header__links ${({isActive}) => isActive ? "active" : ""}`} to="/curriculum">Curriculum</NavLink>
           </li>
-          <li className='header__items'>
+          {/* <li className='header__items'>
             <NavLink className={`header__links ${({isActive}) => isActive ? "active" : ""}`} to="/contacto">Contacto</NavLink>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>

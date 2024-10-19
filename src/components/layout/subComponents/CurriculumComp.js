@@ -18,7 +18,6 @@ export const Experiencia = (props) => {
                 </div>
             </div>
             <div className='espacio'></div>
-
         </>
     )
 }
