@@ -136,7 +136,7 @@
     margin: 0 auto;
     font-size: 1rem;
     line-height: 1.1rem;
-    text-align: justify;
+    text-align: start;
 }
 
 .formacion__text__container {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Contacto } from '../components/Contacto'
 import { Curriculum } from '../components/Curriculum'
 import { Inicio } from '../components/Inicio'
@@ -14,28 +14,27 @@ import { Proyecto } from '../components/Proyecto'
 export const MisRutas = () => {
   return (
     <BrowserRouter>
-    
-        {/*Header y navegacion*/}
-        <Header/>
+
+      {/*Header y navegacion*/}
+      <Header />
 
 
-        {/*Contenido central*/}
-        <Routes>
-          <Route path='/' element={<Navigate to="/inicio"/>} />
-          <Route path='/portafolio-react' element={<Navigate to='/inicio'/>}/>
-          <Route path='/inicio' element={<Inicio/>} />
-          <Route path='/portafolio' element={<Portafolio/>} />
-          <Route path='/portafolio/:proyecto' element={<Proyecto/>} />
-          <Route path='/skills' element={<Skills/>} />
-          <Route path='/curriculum' element={<Curriculum/>} />
-          <Route path='/contacto' element={<Contacto/>} />
-          <Route path='/*' element={<Error404/>} />
-        </Routes>
+      {/*Contenido central*/}
+      <Routes>
+        <Route path='/' element={<Navigate to="/inicio" />} />
+        <Route path='/portafolio-react' element={<Navigate to='/inicio' />} />
+        <Route path='/inicio' element={<Inicio />} />
+        <Route path='/portafolio' element={<Portafolio />} />
+        <Route path='/portafolio/:proyecto' element={<Proyecto />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/curriculum' element={<Curriculum />} />
+        <Route path='/contacto' element={<Contacto />} />
+        <Route path='/*' element={<Error404 />} />
+      </Routes>
 
 
-        {/*Footer*/}
-        <Footer/>
-        
+      {/*Footer*/}
+      <Footer />
 
     </BrowserRouter>
   )
