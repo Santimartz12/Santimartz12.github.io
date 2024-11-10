@@ -36,7 +36,7 @@ export const trabajos = [
         img: SM0004,
         nombre: "Página Oficial",
         lenguajes: ["html5","react","css3"],
-        urlDemo: "https://santimartz12.github.io/portafolio-react/",
+        urlDemo: "https://santimartz12.github.io",
         urlRepo: "https://github.com/Santimartz12/portafolio-react",
     },
     {
