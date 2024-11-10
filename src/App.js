@@ -1,6 +1,7 @@
 //Importacion de modulos y componentes
 import { MisRutas } from "./router/MisRutas";
 
+
 //Config
 import i18n from "./config/lang/i18n";
 
