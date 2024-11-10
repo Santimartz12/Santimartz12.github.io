@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { Contacto } from '../components/Contacto'
 import { Curriculum } from '../components/Curriculum'
 import { Inicio } from '../components/Inicio'
@@ -18,7 +18,7 @@ export const MisRutas = () => {
 
       {/*Contenido central*/}
       <Routes>
-        <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Navigate to="/inicio" replace />} />
         <Route path="/inicio" element={<Inicio />} />
         <Route path="/portafolio" element={<Portafolio />} />
         <Route path="/portafolio/:proyecto" element={<Proyecto />} />
