@@ -58,6 +58,9 @@ const es = {
     publicitaryInfo: '"Me desempeñé en el retoque digital para la elaboración de diseños de posters, avisos digitales y contenido para digital para las redes de Pitbull Barber.',
     modelInfo: 'Me encargué de construir personajes 3D para desarrolladores de videojuegos mediante bocetos enviados desde una página de Freelance.',
     frontendSSInfo: 'Desarrollé proyectos complejos en Angular, implementando mapas, APIs, gráficas y librerías que requerían los sistemas. Lideré el frontend en mi último proyecto, gestionando los sprints y la respectiva comunicación con el cliente.',
+
+    // Education
+    inProgress: 'En curso - {{place}}',
 }
 
 export default es;

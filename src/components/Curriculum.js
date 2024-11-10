@@ -41,12 +41,12 @@ export const Curriculum = () => {
       <div className='fondo__oscuro container__curriculum'>
         <h1 className='formacion__titulo light__text'>{t('education')}</h1>
         <div className='formacion__lista'>
-          <Formacion image={unad} titulo="Ingeniería Multimedia" info="En curso - UNAD" alt="Logo UNAD" />
+          <Formacion image={unad} titulo="Ingeniería Multimedia" info={t('inProgress', { place: 'UNAD' })} alt="Logo UNAD" />
           <Formacion image={one} titulo="Desarrollo FrontEnd" info="2022 - Oracle Next Education" alt="Logo Alura" />
           <Formacion image={normal} titulo="Normalista Superior" info="2019 - IENSFT" alt="Logo IENSFT" />
           <Formacion image={udemy} titulo="Angular: De cero a experto" info="2022 - Udemy" alt="Logo Udemy" />
-          <Formacion image={udemy} titulo="Flutter: De cero a experto" info="En curso - Udemy" alt="Logo Udemy" />
-          <Formacion image={platzi} titulo="Frontend con React.js" info="En curso - Platzi" alt="Logo Platzi" />
+          <Formacion image={udemy} titulo="Flutter: De cero a experto" info={t('inProgress', { place: 'Udemy' })} alt="Logo Udemy" />
+          <Formacion image={platzi} titulo="Frontend con React.js" info={t('inProgress', { place: 'Platzi' })} alt="Logo Platzi" />
         </div>
       </div>
 

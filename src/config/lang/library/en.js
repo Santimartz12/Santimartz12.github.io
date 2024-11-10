@@ -40,7 +40,6 @@ const en = {
     autonomy: 'Autonomy',
     adaptability: 'Adaptability',
 
-
     // Curriculum
     laboralExperience: 'Work Experience',
     professionalProfile: 'Professional Profile',
@@ -58,6 +57,9 @@ const en = {
     publicitaryInfo: 'I worked on digital retouching for creating poster designs, digital ads, and content for the social media of Pitbull Barber.',
     modelInfo: 'I was responsible for building 3D characters for video game developers based on sketches sent through a freelancing platform.',
     frontendSSInfo: 'I developed complex projects in Angular, implementing maps, APIs, charts, and libraries required by the systems. I led the frontend in my last project, managing sprints and maintaining communication with the client.',
+
+    // Education
+    inProgress: 'In progress - {{place}}',
 }
 
 export default en;

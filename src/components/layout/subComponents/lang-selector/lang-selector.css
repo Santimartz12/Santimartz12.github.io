@@ -1,0 +1,54 @@
+.custom-select {
+    position: relative;
+    cursor: pointer;
+    margin: auto 0 auto 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.selected-option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px 0 8px;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    height: 35px;
+    min-width: 100px;
+    background-color: transparent;
+}
+
+.selected-option span {
+    margin-left: 10px;
+}
+
+.arrow {
+    margin-left: auto;
+}
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.option:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.option span {
+    margin-left: 10px;
+}

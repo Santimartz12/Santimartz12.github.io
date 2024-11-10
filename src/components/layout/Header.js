@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 import logo from "../../resources/images/Icon_Santimartz.svg"
 import { useTranslation } from 'react-i18next'
+import { LangSelector } from './subComponents/lang-selector/lang-selector'
 
 export const Header = () => {
 
@@ -25,6 +26,8 @@ export const Header = () => {
           <li className='header__items'>
             <NavLink className={`header__links ${({ isActive }) => isActive ? "active" : ""}`} to="/curriculum">{t('curriculum')}</NavLink>
           </li>
+
+          <LangSelector></LangSelector>
           {/* <li className='header__items'>
             <NavLink className={`header__links ${({isActive}) => isActive ? "active" : ""}`} to="/contacto">Contacto</NavLink>
           </li> */}
